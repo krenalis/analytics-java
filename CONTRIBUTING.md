@@ -2,6 +2,16 @@
 
 This file contains information useful for contributing to the Krenalis Java SDK.
 
+## Before commit
+
+1. Run the tests
+
+1. Apply code formatting:
+
+    ```
+    mvn spotless:apply
+    ```
+
 ## Testing the SDK
 
 To test the SDK:
