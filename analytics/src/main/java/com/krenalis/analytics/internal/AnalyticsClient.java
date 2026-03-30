@@ -8,7 +8,6 @@ import com.google.gson.Gson;
 import com.krenalis.analytics.Callback;
 import com.krenalis.analytics.Log;
 import com.krenalis.analytics.http.KrenalisService;
-import com.krenalis.analytics.http.UploadResponse;
 import com.krenalis.analytics.messages.Batch;
 import com.krenalis.analytics.messages.Message;
 import com.segment.backo.Backo;
@@ -358,8 +357,8 @@ public class AnalyticsClient {
       client.log.print(VERBOSE, "Uploading batch %s.", batch.sequence());
 
       try {
-        Call<UploadResponse> call = client.service.upload(client.uploadUrl, batch);
-        Response<UploadResponse> response = call.execute();
+        Call<Void> call = client.service.upload(client.uploadUrl, batch);
+        Response<Void> response = call.execute();
 
         if (response.isSuccessful()) {
           client.log.print(VERBOSE, "Uploaded batch %s.", batch.sequence());

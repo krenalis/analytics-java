@@ -10,5 +10,5 @@ import retrofit2.http.Url;
 /** REST interface for the Krenalis API. */
 public interface KrenalisService {
   @POST
-  Call<UploadResponse> upload(@Url HttpUrl uploadUrl, @Body Batch batch);
+  Call<Void> upload(@Url HttpUrl uploadUrl, @Body Batch batch);
 }
