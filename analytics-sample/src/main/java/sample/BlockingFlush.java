@@ -1,11 +1,11 @@
 package sample;
 
-import com.meergo.analytics.Analytics;
-import com.meergo.analytics.Callback;
-import com.meergo.analytics.MessageTransformer;
-import com.meergo.analytics.Plugin;
-import com.meergo.analytics.messages.Message;
-import com.meergo.analytics.messages.MessageBuilder;
+import com.krenalis.analytics.Analytics;
+import com.krenalis.analytics.Callback;
+import com.krenalis.analytics.MessageTransformer;
+import com.krenalis.analytics.Plugin;
+import com.krenalis.analytics.messages.Message;
+import com.krenalis.analytics.messages.MessageBuilder;
 import java.util.concurrent.Phaser;
 
 /**

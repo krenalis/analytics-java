@@ -1,18 +1,18 @@
-# Meergo Java SDK
+# Krenalis Java SDK
 
-The Meergo Java SDK lets you send customer event data from your Java server applications to your specified destinations.
+The Krenalis Java SDK lets you send customer event data from your Java server applications to your specified destinations.
 
 ## SDK setup requirements
 
-- Set up a Meergo account.
+- Set up a Krenalis account.
 - Set up a Java source in the dashboard.
 - Copy the write key and the endpoint.
 
 ## Using the SDK
 
 ```java
-import com.meergo.analytics.Analytics;
-import com.meergo.analytics.messages.TrackMessage;
+import com.krenalis.analytics.Analytics;
+import com.krenalis.analytics.messages.TrackMessage;
 
 final Analytics analytics =
     Analytics.builder("YOUR_WRITE_KEY")
@@ -27,7 +27,7 @@ analytics.enqueue(
 
 ## Sending events
 
-Refer to the Meergo events documentation for more information on the supported event types.
+Refer to the Krenalis events documentation for more information on the supported event types.
 
 ## License
 

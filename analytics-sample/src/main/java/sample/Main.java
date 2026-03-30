@@ -1,7 +1,7 @@
 package sample;
 
-import com.meergo.analytics.Analytics;
-import com.meergo.analytics.messages.TrackMessage;
+import com.krenalis.analytics.Analytics;
+import com.krenalis.analytics.messages.TrackMessage;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.UUID;

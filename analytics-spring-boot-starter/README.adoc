@@ -1,7 +1,7 @@
-= Spring Boot starter for Meergo Analytics
+= Spring Boot starter for Krenalis Analytics
 
 This module provides a link:https://projects.spring.io/spring-boot/[Spring Boot]
-starter for the Meergo client.
+starter for the Krenalis client.
 
 == Usage
 
@@ -9,19 +9,19 @@ For Maven, include this dependency in your `pom.xml`:
 
 ```xml
 <dependency>
-  <groupId>com.meergo.analytics.java</groupId>
+  <groupId>com.krenalis.analytics.java</groupId>
   <artifactId>analytics-spring-boot-starter</artifactId>
-  <version>${meergo.analytics.version}</version>
+  <version>${krenalis.analytics.version}</version>
 </dependency>
 ```
 
 For Gradle,
 
 ```bash
-compile 'com.meergo.analytics.java:analytics-spring-boot-starter:+'
+compile 'com.krenalis.analytics.java:analytics-spring-boot-starter:+'
 ```
 
 In your Spring Boot configuration (`application.properties`, environment, or
-similar), provide the property `meergo.analytics.writeKey`. The
+similar), provide the property `krenalis.analytics.writeKey`. The
 autoconfiguration will register an `Analytics` bean in the Spring context
 ready for use.

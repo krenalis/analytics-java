@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-    com.meergo.analytics.autoconfigure.MeergoAnalyticsAutoConfiguration
+    com.krenalis.analytics.autoconfigure.KrenalisAnalyticsAutoConfiguration

@@ -5,7 +5,7 @@
 
   <parent>
     <artifactId>analytics-parent</artifactId>
-    <groupId>com.meergo.analytics.java</groupId>
+    <groupId>com.krenalis.analytics.java</groupId>
     <version>0.0.1</version>
   </parent>
 
@@ -14,7 +14,7 @@
 
   <dependencies>
     <dependency>
-      <groupId>com.meergo.analytics.java</groupId>
+      <groupId>com.krenalis.analytics.java</groupId>
       <artifactId>analytics</artifactId>
       <version>${project.version}</version>
     </dependency>

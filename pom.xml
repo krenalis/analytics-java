@@ -3,13 +3,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>com.meergo.analytics.java</groupId>
+  <groupId>com.krenalis.analytics.java</groupId>
   <artifactId>analytics-parent</artifactId>
   <version>0.0.1</version>
   <packaging>pom</packaging>
   <name>Analytics for Java (Parent)</name>
-  <description>The Java SDK for analytics, by Meergo</description>
-  <url>https://github.com/meergo/analytics-java</url>
+  <description>Krenalis analytics SDK for Java</description>
+  <url>https://github.com/krenalis/analytics-java</url>
 
   <repositories>
     <repository>
@@ -58,9 +58,9 @@
   </properties>
 
   <scm>
-    <url>https://github.com/meergo/analytics-java/</url>
-    <connection>scm:git:https://github.com/meergo/analytics-java.git</connection>
-    <developerConnection>scm:git:git@github.com:meergo/analytics-java.git</developerConnection>
+    <url>https://github.com/krenalis/analytics-java/</url>
+    <connection>scm:git:https://github.com/krenalis/analytics-java.git</connection>
+    <developerConnection>scm:git:git@github.com:krenalis/analytics-java.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
 
@@ -73,11 +73,11 @@
 
   <developers>
     <developer>
-      <id>meergo</id>
-      <name>Meergo Team</name>
+      <id>krenalis</id>
+      <name>Krenalis Team</name>
       <email>maven@open2b.com</email>
       <organization>Open2b</organization>
-      <organizationUrl>https://www.meergo.com/</organizationUrl>
+      <organizationUrl>https://www.krenalis.com/</organizationUrl>
     </developer>
   </developers>
 
@@ -217,7 +217,7 @@
           <archive>
             <manifest>
               <mainClass>
-                com.meergo.analytics.Analytics
+                com.krenalis.analytics.Analytics
               </mainClass>
             </manifest>
           </archive>
