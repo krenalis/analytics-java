@@ -398,8 +398,7 @@ public class AnalyticsClientTest {
     // Throw a HTTP error 3 times.
 
     Response<Void> successResponse = Response.success(null);
-    Response<Void> failResponse =
-        Response.error(500, ResponseBody.create(null, "Server Error"));
+    Response<Void> failResponse = Response.error(500, ResponseBody.create(null, "Server Error"));
     when(krenalisService.upload(null, batch))
         .thenReturn(Calls.response(failResponse))
         .thenReturn(Calls.response(failResponse))
@@ -422,8 +421,7 @@ public class AnalyticsClientTest {
 
     // Throw a HTTP error 3 times.
     Response<Void> successResponse = Response.success(null);
-    Response<Void> failResponse =
-        Response.error(429, ResponseBody.create(null, "Rate Limited"));
+    Response<Void> failResponse = Response.error(429, ResponseBody.create(null, "Rate Limited"));
     when(krenalisService.upload(null, batch))
         .thenReturn(Calls.response(failResponse))
         .thenReturn(Calls.response(failResponse))
@@ -445,8 +443,7 @@ public class AnalyticsClientTest {
     Batch batch = batchFor(trackMessage);
 
     // Throw a HTTP error that should not be retried.
-    Response<Void> failResponse =
-        Response.error(404, ResponseBody.create(null, "Not Found"));
+    Response<Void> failResponse = Response.error(404, ResponseBody.create(null, "Not Found"));
     when(krenalisService.upload(null, batch)).thenReturn(Calls.response(failResponse));
 
     BatchUploadTask batchUploadTask = new BatchUploadTask(client, BACKO, batch, DEFAULT_RETRIES);

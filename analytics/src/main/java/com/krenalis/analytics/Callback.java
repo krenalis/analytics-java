@@ -14,8 +14,8 @@ public interface Callback {
    * Invoked when the message is successfully uploaded to Krenalis.
    *
    * <p>Note: The Krenalis HTTP API itself is asynchronous, so this doesn't indicate whether the
-   * message was sent to all integrations or not — just that the message was sent to the Krenalis API
-   * and will be sent to integrations at a later time.
+   * message was sent to all integrations or not — just that the message was sent to the Krenalis
+   * API and will be sent to integrations at a later time.
    */
   void success(Message message);
 
