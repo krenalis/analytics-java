@@ -5,7 +5,7 @@
 
   <groupId>com.krenalis.analytics.java</groupId>
   <artifactId>analytics-parent</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>pom</packaging>
   <name>Analytics for Java (Parent)</name>
   <description>Krenalis analytics SDK for Java</description>
