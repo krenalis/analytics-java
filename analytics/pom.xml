@@ -6,11 +6,17 @@
   <parent>
     <groupId>com.meergo.analytics.java</groupId>
     <artifactId>analytics-parent</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
   </parent>
 
   <artifactId>analytics</artifactId>
   <name>Analytics for Java</name>
+
+  <distributionManagement>
+    <relocation>
+      <groupId>com.krenalis.analytics.java</groupId>
+    </relocation>
+  </distributionManagement>
 
   <dependencies>
     <dependency>

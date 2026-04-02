@@ -5,11 +5,17 @@
 
   <groupId>com.meergo.analytics.java</groupId>
   <artifactId>analytics-parent</artifactId>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <packaging>pom</packaging>
   <name>Analytics for Java (Parent)</name>
-  <description>The Java SDK for analytics, by Meergo</description>
+  <description>Deprecated: this artifact has moved to com.krenalis.analytics.java</description>
   <url>https://github.com/meergo/analytics-java</url>
+
+  <distributionManagement>
+    <relocation>
+      <groupId>com.krenalis.analytics.java</groupId>
+    </relocation>
+  </distributionManagement>
 
   <repositories>
     <repository>
