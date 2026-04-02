@@ -8,7 +8,7 @@
   <version>0.0.2</version>
   <packaging>pom</packaging>
   <name>Analytics for Java (Parent)</name>
-  <description>Deprecated: this artifact has moved to com.krenalis.analytics.java</description>
+  <description>DEPRECATED: this artifact has moved to com.krenalis.analytics.java</description>
   <url>https://github.com/meergo/analytics-java</url>
 
   <distributionManagement>
